@@ -11,7 +11,7 @@
 
 CheckMate is an open source multi-agent orchestration framework and prompt-engineering system built around chess-piece roles. It ships as a Claude Code skill, Codex skill, npm CLI, npx package, and Python runtime for structured, constraint-based planning.
 
-_Don't let the Queen become everything. Make the system think with constraints._
+_A chess-based system for multi-agent planning._
 
 [Quick Start](#quick-start) • [npx CLI](#npx-cli) • [Skill Package](#skill-package) • [Runtime](#python-runtime) • [Architecture](docs/architecture.md) • [npx Reference](docs/NPX.md)
 
