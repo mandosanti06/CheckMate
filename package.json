@@ -21,7 +21,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "check": "node --test tests/node/*.test.js && node scripts/run-python-tests.mjs",
+    "check": "node scripts/run-node-tests.mjs && node scripts/run-python-tests.mjs",
     "doctor": "node bin/checkmate.js doctor",
     "pack:dry": "npm pack --dry-run",
     "plan": "node bin/checkmate.js plan --goal \"Build a migration plan\" --constraint \"must preserve uptime\"",
