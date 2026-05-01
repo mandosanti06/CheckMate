@@ -1,7 +1,7 @@
 {
   "name": "checkmate-agent-system",
   "version": "0.1.0",
-  "description": "Chess-governed agent planning for Codex, Claude, and npx workflows.",
+  "description": "Chess-governed multi-agent planning for Claude Code, Codex, npm/npx, and Python.",
   "type": "module",
   "bin": {
     "checkmate": "bin/checkmate.js",
@@ -49,14 +49,19 @@
   },
   "keywords": [
     "agents",
+    "ai-agents",
+    "agent-framework",
     "codex",
     "claude",
     "claude-code",
+    "python",
     "skills",
     "multi-agent",
     "orchestration",
     "planning",
-    "npx"
+    "prompt-engineering",
+    "npx",
+    "npm"
   ],
   "engines": {
     "node": ">=18"

@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "checkmate-agent-system"
 version = "0.1.0"
-description = "A constraint-based multi-agent runtime modeled on chess piece roles."
+description = "Chess-governed multi-agent planning runtime for Claude Code, Codex, and Python workflows."
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [{ name = "CheckMate contributors" }]
 license = { text = "MIT" }
-keywords = ["agents", "multi-agent", "planning", "orchestration", "checkmate", "claude", "codex"]
+keywords = ["agents", "ai-agents", "agent-framework", "multi-agent", "planning", "orchestration", "prompt-engineering", "checkmate", "claude", "claude-code", "codex", "python"]
 
 [project.urls]
 Homepage = "https://github.com/mandosanti06/CheckMate"

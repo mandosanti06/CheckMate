@@ -1,11 +1,15 @@
 # CheckMate Agent System
 
 [![Status: alpha](https://img.shields.io/badge/status-alpha-orange)](#status--scope)
+[![npm version](https://img.shields.io/npm/v/checkmate-agent-system?color=cb3837)](https://www.npmjs.com/package/checkmate-agent-system)
+[![npm downloads](https://img.shields.io/npm/dm/checkmate-agent-system?color=blue)](https://www.npmjs.com/package/checkmate-agent-system)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&logoColor=white)](package.json)
 [![Skills](https://img.shields.io/badge/Codex%20%2B%20Claude-skills-7c3aed)](skills/checkmate-agent-system/SKILL.md)
 
-**Chess-governed multi-agent planning for Codex, Claude, and npx.**
+**Chess-governed multi-agent planning for Claude Code, Codex, npm/npx, and Python.**
+
+CheckMate is an open source multi-agent orchestration framework and prompt-engineering system built around chess-piece roles. It ships as a Claude Code skill, Codex skill, npm CLI, npx package, and Python runtime for structured, constraint-based planning.
 
 _Don't let the Queen become everything. Make the system think with constraints._
 
