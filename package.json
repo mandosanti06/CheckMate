@@ -4,8 +4,8 @@
   "description": "Chess-governed agent planning for Codex, Claude, and npx workflows.",
   "type": "module",
   "bin": {
-    "checkmate": "./bin/checkmate.js",
-    "checkmate-agent-system": "./bin/checkmate.js"
+    "checkmate": "bin/checkmate.js",
+    "checkmate-agent-system": "bin/checkmate.js"
   },
   "files": [
     "bin/",
