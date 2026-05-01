@@ -14,7 +14,7 @@ Unacceptable behavior includes harassment, insulting or derogatory comments, per
 
 ## Enforcement
 
-Instances of unacceptable behavior may be reported to the maintainers at <conduct@example.com>. All complaints will be reviewed and investigated promptly and fairly.
+Instances of unacceptable behavior may be reported to the maintainers at <ajsm1006+checkmate-conduct@gmail.com>. All complaints will be reviewed and investigated promptly and fairly.
 
 ## Attribution
 
