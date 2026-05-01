@@ -1,0 +1,78 @@
+"""CheckMate runtime public API."""
+
+from .agents import (
+    BishopAgent,
+    KingAgent,
+    KnightAgent,
+    PawnAgent,
+    PieceAgent,
+    QueenAgent,
+    RookAgent,
+    default_agents,
+)
+from .board import BoardState
+from .engine import ExecutionEngine
+from .messages import Message, MessageBus, TopologyViolation
+from .models import (
+    AgentInput,
+    AgentMetadata,
+    AgentOutput,
+    AgentStatus,
+    Claim,
+    Conflict,
+    ConflictOutcome,
+    ConflictType,
+    Constraint,
+    Decision,
+    MessageType,
+    Piece,
+    Priority,
+    ReasoningMode,
+    Risk,
+    RuntimeStatus,
+    Severity,
+    Task,
+    TaskStatus,
+)
+from .runtime import run_checkmate
+from .tools import ToolPermissionError, ToolRegistry, ToolSpec, default_tool_registry
+
+__all__ = [
+    "AgentInput",
+    "AgentMetadata",
+    "AgentOutput",
+    "AgentStatus",
+    "BishopAgent",
+    "BoardState",
+    "Claim",
+    "Conflict",
+    "ConflictOutcome",
+    "ConflictType",
+    "Constraint",
+    "Decision",
+    "ExecutionEngine",
+    "KingAgent",
+    "KnightAgent",
+    "Message",
+    "MessageBus",
+    "MessageType",
+    "PawnAgent",
+    "Piece",
+    "PieceAgent",
+    "Priority",
+    "QueenAgent",
+    "ReasoningMode",
+    "Risk",
+    "RookAgent",
+    "RuntimeStatus",
+    "Severity",
+    "Task",
+    "TaskStatus",
+    "ToolPermissionError",
+    "ToolRegistry",
+    "ToolSpec",
+    "TopologyViolation",
+    "default_agents",
+    "default_tool_registry",
+    "run_checkmate",
+]

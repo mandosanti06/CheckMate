@@ -1,0 +1,7 @@
+interface:
+  display_name: "CheckMate Agent System"
+  short_description: "Chess-governed agent planning."
+  default_prompt: "Use $checkmate-agent-system to structure this task with King governance, Queen orchestration, Rook validation, Bishop analysis, Knight exploration, and Pawn execution."
+policy:
+  allow_implicit_invocation: true
+

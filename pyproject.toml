@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "checkmate-agent-system"
+version = "0.1.0"
+description = "A constraint-based multi-agent runtime modeled on chess piece roles."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "CheckMate contributors" }]
+license = { text = "MIT" }
+keywords = ["agents", "multi-agent", "planning", "orchestration", "checkmate", "claude", "codex"]
+
+[project.urls]
+Homepage = "https://github.com/mandosanti06/CheckMate"
+Issues = "https://github.com/mandosanti06/CheckMate/issues"
+
+[tool.setuptools.packages.find]
+include = ["checkmate*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
